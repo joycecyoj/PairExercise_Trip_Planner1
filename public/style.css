@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+#navbar-p {
+  display: flex;
+}
+
+#navbar-c {
+  background-color: black;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+}
+
+#sidecol-p {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+#search {
+  flex-basis: 50%;
+  background-color: white;
+  position: fixed;
+  width: 25%;
+  height: 200px;
+  z-index: 2;
+
+}
+
+#itinerary {
+  flex-basis: 50%;
+  background-color: white;
+  position: fixed;
+  width: 25%;
+  height: 200px;
+  z-index: 2;
+}
